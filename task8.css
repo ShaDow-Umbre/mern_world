@@ -1,0 +1,19 @@
+.styled-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.header {
+    background-color: green;
+    color: white;
+}
+.even {
+    background-color: #f2f2f2;
+}
+.odd {
+    background-color: white;
+}
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}

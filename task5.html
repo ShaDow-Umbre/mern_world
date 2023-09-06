@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Registration</title>
+</head>
+<body>
+    <h2 style="color: blue; margin-left: 700px;">Registration Form</h2>
+    <form action="registration_process.php" method="POST">
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name" required style="margin-left: 50px;"><br><br>
+
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name" required style="margin-left: 51px;"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required style="margin-left: 83px;"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required style="margin-left: 60px;"><br><br>
+
+        <label for="confirm_password">Re-enter Password:</label>
+        <input type="password" id="confirm_password" name="confirm_password" required><br><br>
+
+        <label >Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required style="margin-left: 68px;">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label><br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required style="margin-left: 90px;"><br><br>
+
+        <label for="phone_number">Phone Number:</label>
+        <input type="tel" id="phone_number" name="phone_number" required style="margin-left: 20px;"><br><br>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" required style="margin-left: 65px;"></textarea><br><br>
+
+        <label for="state">State:</label>
+        <input type="text" id="state" name="state" required style="margin-left:85px;"><br><br>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country" required  style="margin-left: 65px;">
+            <option value="usa">USA</option>
+            <option value="canada">CANADA</option>
+            <option value="uk">UK</option>
+            <option value="India">INDIA</option>
+            <option value="Turkey">TURKEY</option>
+        </select><br><br>
+
+        <label for="languages_known">Languages Known:</label>
+        <input type="checkbox" id="english" name="languages_known1" value="english" required>
+        <label for="english">English</label>
+        <input type="checkbox" id="kannada" name="languages_known2" value="kannada" required>
+        <label for="kannada">Kannada</label>
+        <input type="checkbox" id="hindi" name="languages_known3" value="hindi" required>
+        <label for="hindi">Hindi</label>
+        <input type="checkbox" id="telugu" name="languages_known4" value="telugu" required>
+        <label for="telugu">Telugu</label><br><br><br>
+
+     
+        <div style="text-align: left;">
+            <input type="checkbox" id="declaration" required>
+            <label for="declaration">Hereby, I declare all the given details are true.</label><br><br>
+        </div>   
+        <div style="text-align: right;" >
+            <p>Log in to <a href="https://ethnus.com/" target="_blank">Ethnus</a> website.</p>
+        </div><br><br>
+        <div style="text-align: left;">
+            <input type="submit" value="Register" style="margin-left: 750px;"><br><br>
+        </div>
+    </form>
+    <p>_rajesh_</p>
+</body>
+</html>

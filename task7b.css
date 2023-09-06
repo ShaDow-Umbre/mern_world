@@ -1,0 +1,42 @@
+.bus {
+    background-color: #333;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    overflow: hidden;
+}
+
+.bus ul {
+    display: flex;
+    width: 100%;
+}
+
+.bus ul li {
+    flex: 1;
+    text-align: center;
+}
+
+.bus ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.3s ease, background-color 0.3s ease, border 0.3s ease;
+}
+
+.bus ul li a:hover {
+    background-color: orange;
+    color: #fff;
+    border: 2px solid orange;
+}
+
+.content-horizontal {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
